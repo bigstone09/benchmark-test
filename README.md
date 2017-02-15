@@ -17,7 +17,7 @@ th main.lua # report last 7 lines of console output
 
 ## Our Machines
 
-* Andy's work computer trial #1 (similar to robot's computer for competition)
+* Andy's work computer trial #4 (similar to robot's computer for competition)
 
 	```shell
 	+-----------------------------------------------------------------------------+
@@ -30,287 +30,137 @@ th main.lua # report last 7 lines of console output
 	| 22%   48C    P8    16W / 250W |    438MiB / 12198MiB |      1%      Default |
 	+-------------------------------+----------------------+----------------------+
 
-	Simple runtime statistics (wall-clock elapsed time):	
-	Loading input to GPU (average runtime):		0.0057008361816406 seconds.	
-	Training forward pass (average runtime):	0.20827218055725 seconds.	
-	Training backward pass (average runtime):	0.25785929679871 seconds.	
-	Total runtime for 25 training iterations:	69.340086936951 seconds.	
-	Average runtime per training iteration:		2.7736037540436 seconds.	
-	Testing forward pass (average runtime):		0.019329044818878 seconds.	
-	```
-
-* Andy's work computer trial #2
-
-	```shell
 	Training iteration 1	
-		Sampling mini-batch (8 x 3 images):	1.0885901451111 seconds.	
-		Loading input mini-batch to GPU:	0.008091926574707 seconds.	
-		Forward pass:				1.2628321647644 seconds.	
-		Backpropagation:			1.5927588939667 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.099837064743042 seconds.	
+		Loading input mini-batch to GPU:	0.0119309425354 seconds.	
+		Forward pass:						0.83366012573242 seconds.	
+		Backpropagation:					0.8948118686676 seconds.	
 	Training iteration 2	
-		Sampling mini-batch (8 x 3 images):	1.3089759349823 seconds.	
-		Loading input mini-batch to GPU:	0.0072019100189209 seconds.	
-		Forward pass:				0.19748497009277 seconds.	
-		Backpropagation:			0.24005794525146 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.065521001815796 seconds.	
+		Loading input mini-batch to GPU:	0.012498140335083 seconds.	
+		Forward pass:						0.20031785964966 seconds.	
+		Backpropagation:					0.24098420143127 seconds.	
 	Training iteration 3	
-		Sampling mini-batch (8 x 3 images):	1.0738339424133 seconds.	
-		Loading input mini-batch to GPU:	0.0067920684814453 seconds.	
-		Forward pass:				0.19745707511902 seconds.	
-		Backpropagation:			0.24005508422852 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.069196939468384 seconds.	
+		Loading input mini-batch to GPU:	0.19375610351562 seconds.	
+		Forward pass:						0.20017719268799 seconds.	
+		Backpropagation:					0.24017810821533 seconds.	
 	Training iteration 4	
-		Sampling mini-batch (8 x 3 images):	0.91724109649658 seconds.	
-		Loading input mini-batch to GPU:	0.0054490566253662 seconds.	
-		Forward pass:				0.19797992706299 seconds.	
-		Backpropagation:			0.23982000350952 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.066982984542847 seconds.	
+		Loading input mini-batch to GPU:	0.19562411308289 seconds.	
+		Forward pass:						0.1999819278717 seconds.	
+		Backpropagation:					0.24144196510315 seconds.	
 	Training iteration 5	
-		Sampling mini-batch (8 x 3 images):	1.0118088722229 seconds.	
-		Loading input mini-batch to GPU:	0.0067391395568848 seconds.	
-		Forward pass:				0.19767808914185 seconds.	
-		Backpropagation:			0.23929810523987 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.069797039031982 seconds.	
+		Loading input mini-batch to GPU:	0.19170784950256 seconds.	
+		Forward pass:						0.19968295097351 seconds.	
+		Backpropagation:					0.24080109596252 seconds.	
 	Training iteration 6	
-		Sampling mini-batch (8 x 3 images):	1.2485098838806 seconds.	
-		Loading input mini-batch to GPU:	0.0069780349731445 seconds.	
-		Forward pass:				0.21638202667236 seconds.	
-		Backpropagation:			0.25906896591187 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.060125112533569 seconds.	
+		Loading input mini-batch to GPU:	0.19904899597168 seconds.	
+		Forward pass:						0.19950604438782 seconds.	
+		Backpropagation:					0.24078106880188 seconds.	
 	Training iteration 7	
-		Sampling mini-batch (8 x 3 images):	1.4963691234589 seconds.	
-		Loading input mini-batch to GPU:	0.0072200298309326 seconds.	
-		Forward pass:				0.21259713172913 seconds.	
-		Backpropagation:			0.25630712509155 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.067155838012695 seconds.	
+		Loading input mini-batch to GPU:	0.19238781929016 seconds.	
+		Forward pass:						0.19941997528076 seconds.	
+		Backpropagation:					0.23980689048767 seconds.	
 	Training iteration 8	
-		Sampling mini-batch (8 x 3 images):	1.5836210250854 seconds.	
-		Loading input mini-batch to GPU:	0.0086398124694824 seconds.	
-		Forward pass:				0.19771695137024 seconds.	
-		Backpropagation:			0.24735116958618 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.065262079238892 seconds.	
+		Loading input mini-batch to GPU:	0.19376993179321 seconds.	
+		Forward pass:						0.19994211196899 seconds.	
+		Backpropagation:					0.24090909957886 seconds.	
 	Training iteration 9	
-		Sampling mini-batch (8 x 3 images):	1.3060088157654 seconds.	
-		Loading input mini-batch to GPU:	0.0068881511688232 seconds.	
-		Forward pass:				0.20563101768494 seconds.	
-		Backpropagation:			0.24005579948425 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.064054012298584 seconds.	
+		Loading input mini-batch to GPU:	0.19869995117188 seconds.	
+		Forward pass:						0.20143818855286 seconds.	
+		Backpropagation:					0.24237203598022 seconds.	
 	Training iteration 10	
-		Sampling mini-batch (8 x 3 images):	1.5016791820526 seconds.	
-		Loading input mini-batch to GPU:	0.0087959766387939 seconds.	
-		Forward pass:				0.20795392990112 seconds.	
-		Backpropagation:			0.23990321159363 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.068015098571777 seconds.	
+		Loading input mini-batch to GPU:	0.19572305679321 seconds.	
+		Forward pass:						0.20136380195618 seconds.	
+		Backpropagation:					0.24220895767212 seconds.	
 	Training iteration 11	
-		Sampling mini-batch (8 x 3 images):	0.95963597297668 seconds.	
-		Loading input mini-batch to GPU:	0.0052051544189453 seconds.	
-		Forward pass:				0.19778990745544 seconds.	
-		Backpropagation:			0.2397289276123 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.071031093597412 seconds.	
+		Loading input mini-batch to GPU:	0.19466114044189 seconds.	
+		Forward pass:						0.20219302177429 seconds.	
+		Backpropagation:					0.24465298652649 seconds.	
 	Training iteration 12	
-		Sampling mini-batch (8 x 3 images):	1.4488909244537 seconds.	
-		Loading input mini-batch to GPU:	0.0084428787231445 seconds.	
-		Forward pass:				0.19838190078735 seconds.	
-		Backpropagation:			0.23987483978271 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.062084913253784 seconds.	
+		Loading input mini-batch to GPU:	0.20227718353271 seconds.	
+		Forward pass:						0.20234298706055 seconds.	
+		Backpropagation:					0.24388194084167 seconds.	
 	Training iteration 13	
-		Sampling mini-batch (8 x 3 images):	1.2787959575653 seconds.	
-		Loading input mini-batch to GPU:	0.0070669651031494 seconds.	
-		Forward pass:				0.19770383834839 seconds.	
-		Backpropagation:			0.23999500274658 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.078464984893799 seconds.	
+		Loading input mini-batch to GPU:	0.18648195266724 seconds.	
+		Forward pass:						0.20270609855652 seconds.	
+		Backpropagation:					0.24345207214355 seconds.	
 	Training iteration 14	
-		Sampling mini-batch (8 x 3 images):	0.88185691833496 seconds.	
-		Loading input mini-batch to GPU:	0.0051460266113281 seconds.	
-		Forward pass:				0.19840121269226 seconds.	
-		Backpropagation:			0.23940706253052 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.075786113739014 seconds.	
+		Loading input mini-batch to GPU:	0.18905806541443 seconds.	
+		Forward pass:						0.20253109931946 seconds.	
+		Backpropagation:					0.24333691596985 seconds.	
 	Training iteration 15	
-		Sampling mini-batch (8 x 3 images):	1.0237729549408 seconds.	
-		Loading input mini-batch to GPU:	0.0052249431610107 seconds.	
-		Forward pass:				0.19794893264771 seconds.	
-		Backpropagation:			0.23999714851379 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.078267097473145 seconds.	
+		Loading input mini-batch to GPU:	0.18746495246887 seconds.	
+		Forward pass:						0.20221900939941 seconds.	
+		Backpropagation:					0.24356293678284 seconds.	
 	Training iteration 16	
-		Sampling mini-batch (8 x 3 images):	0.9360179901123 seconds.	
-		Loading input mini-batch to GPU:	0.0081250667572021 seconds.	
-		Forward pass:				0.19771099090576 seconds.	
-		Backpropagation:			0.2394700050354 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.077510118484497 seconds.	
+		Loading input mini-batch to GPU:	0.18847298622131 seconds.	
+		Forward pass:						0.20224905014038 seconds.	
+		Backpropagation:					0.24331712722778 seconds.	
 	Training iteration 17	
-		Sampling mini-batch (8 x 3 images):	1.0573718547821 seconds.	
-		Loading input mini-batch to GPU:	0.0051419734954834 seconds.	
-		Forward pass:				0.19793486595154 seconds.	
-		Backpropagation:			0.23975014686584 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.079019069671631 seconds.	
+		Loading input mini-batch to GPU:	0.18532085418701 seconds.	
+		Forward pass:						0.20204997062683 seconds.	
+		Backpropagation:					0.24342608451843 seconds.	
 	Training iteration 18	
-		Sampling mini-batch (8 x 3 images):	0.9336998462677 seconds.	
-		Loading input mini-batch to GPU:	0.0056068897247314 seconds.	
-		Forward pass:				0.19775390625 seconds.	
-		Backpropagation:			0.2399959564209 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.063156127929688 seconds.	
+		Loading input mini-batch to GPU:	0.20040106773376 seconds.	
+		Forward pass:						0.20171403884888 seconds.	
+		Backpropagation:					0.24290490150452 seconds.	
 	Training iteration 19	
-		Sampling mini-batch (8 x 3 images):	1.3629169464111 seconds.	
-		Loading input mini-batch to GPU:	0.0069229602813721 seconds.	
-		Forward pass:				0.19793295860291 seconds.	
-		Backpropagation:			0.2399730682373 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.05597186088562 seconds.	
+		Loading input mini-batch to GPU:	0.20666289329529 seconds.	
+		Forward pass:						0.20226407051086 seconds.	
+		Backpropagation:					0.24291300773621 seconds.	
 	Training iteration 20	
-		Sampling mini-batch (8 x 3 images):	0.99309611320496 seconds.	
-		Loading input mini-batch to GPU:	0.0055160522460938 seconds.	
-		Forward pass:				0.19780993461609 seconds.	
-		Backpropagation:			0.23993992805481 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.060302972793579 seconds.	
+		Loading input mini-batch to GPU:	0.20330691337585 seconds.	
+		Forward pass:						0.20165085792542 seconds.	
+		Backpropagation:					0.24320483207703 seconds.	
 	Training iteration 21	
-		Sampling mini-batch (8 x 3 images):	0.95115900039673 seconds.	
-		Loading input mini-batch to GPU:	0.0070431232452393 seconds.	
-		Forward pass:				0.19788503646851 seconds.	
-		Backpropagation:			0.24021291732788 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.068582057952881 seconds.	
+		Loading input mini-batch to GPU:	0.19452810287476 seconds.	
+		Forward pass:						0.20212388038635 seconds.	
+		Backpropagation:					0.24304890632629 seconds.	
 	Training iteration 22	
-		Sampling mini-batch (8 x 3 images):	0.88082098960876 seconds.	
-		Loading input mini-batch to GPU:	0.0052390098571777 seconds.	
-		Forward pass:				0.19821405410767 seconds.	
-		Backpropagation:			0.2404100894928 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.066182136535645 seconds.	
+		Loading input mini-batch to GPU:	0.19750905036926 seconds.	
+		Forward pass:						0.20176601409912 seconds.	
+		Backpropagation:					0.24348282814026 seconds.	
 	Training iteration 23	
-		Sampling mini-batch (8 x 3 images):	0.83696794509888 seconds.	
-		Loading input mini-batch to GPU:	0.0053892135620117 seconds.	
-		Forward pass:				0.1985330581665 seconds.	
-		Backpropagation:			0.24021220207214 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.058594942092896 seconds.	
+		Loading input mini-batch to GPU:	0.20702815055847 seconds.	
+		Forward pass:						0.20201301574707 seconds.	
+		Backpropagation:					0.24300098419189 seconds.	
 	Training iteration 24	
-		Sampling mini-batch (8 x 3 images):	1.0375819206238 seconds.	
-		Loading input mini-batch to GPU:	0.0069489479064941 seconds.	
-		Forward pass:				0.19799017906189 seconds.	
-		Backpropagation:			0.24109196662903 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.06843113899231 seconds.	
+		Loading input mini-batch to GPU:	0.19640588760376 seconds.	
+		Forward pass:						0.20216798782349 seconds.	
+		Backpropagation:					0.24410200119019 seconds.	
 	Training iteration 25	
-		Sampling mini-batch (8 x 3 images):	0.86194705963135 seconds.	
-		Loading input mini-batch to GPU:	0.0053408145904541 seconds.	
-		Forward pass:				0.19806408882141 seconds.	
-		Backpropagation:			0.23984408378601 seconds.	
+		Sampling mini-batch (8 x 3 images):	0.073641061782837 seconds.	
+		Loading input mini-batch to GPU:	0.19171619415283 seconds.	
+		Forward pass:						0.20234894752502 seconds.	
+		Backpropagation:					0.24435710906982 seconds.	
 
 	Simple runtime statistics (wall-clock elapsed time):	
-	Loading input to GPU (average runtime):		0.0065970230102539 seconds.	
-	Training forward pass (average runtime):	0.24254447937012 seconds.	
-	Training backward pass (average runtime):	0.29577780723572 seconds.	
-	Total runtime for 25 training iterations:	77.526621818542 seconds.	
-	Average runtime per training iteration:		3.1010652732849 seconds.	
-	Testing forward pass (average runtime):		0.019975671768188 seconds.
-	```
-
-* Andy's work computer trial #3
-
-	```shell
-	Training iteration 1	
-		Sampling mini-batch (8 x 3 images):	1.2719349861145 seconds.	
-		Loading input mini-batch to GPU:	0.0086221694946289 seconds.	
-		Forward pass:				0.41344308853149 seconds.	
-		Backpropagation:			0.67188906669617 seconds.	
-	Training iteration 2	
-		Sampling mini-batch (8 x 3 images):	1.3878390789032 seconds.	
-		Loading input mini-batch to GPU:	0.0071918964385986 seconds.	
-		Forward pass:				0.21254587173462 seconds.	
-		Backpropagation:			0.24282693862915 seconds.	
-	Training iteration 3	
-		Sampling mini-batch (8 x 3 images):	1.2364678382874 seconds.	
-		Loading input mini-batch to GPU:	0.0069289207458496 seconds.	
-		Forward pass:				0.19832110404968 seconds.	
-		Backpropagation:			0.24003791809082 seconds.	
-	Training iteration 4	
-		Sampling mini-batch (8 x 3 images):	1.1536428928375 seconds.	
-		Loading input mini-batch to GPU:	0.0069618225097656 seconds.	
-		Forward pass:				0.19831991195679 seconds.	
-		Backpropagation:			0.24044704437256 seconds.	
-	Training iteration 5	
-		Sampling mini-batch (8 x 3 images):	1.1817200183868 seconds.	
-		Loading input mini-batch to GPU:	0.0069079399108887 seconds.	
-		Forward pass:				0.19780492782593 seconds.	
-		Backpropagation:			0.23908281326294 seconds.	
-	Training iteration 6	
-		Sampling mini-batch (8 x 3 images):	0.92917895317078 seconds.	
-		Loading input mini-batch to GPU:	0.0053019523620605 seconds.	
-		Forward pass:				0.19800400733948 seconds.	
-		Backpropagation:			0.23962688446045 seconds.	
-	Training iteration 7	
-		Sampling mini-batch (8 x 3 images):	1.3540949821472 seconds.	
-		Loading input mini-batch to GPU:	0.00705885887146 seconds.	
-		Forward pass:				0.19821190834045 seconds.	
-		Backpropagation:			0.24070000648499 seconds.	
-	Training iteration 8	
-		Sampling mini-batch (8 x 3 images):	1.2273290157318 seconds.	
-		Loading input mini-batch to GPU:	0.0069258213043213 seconds.	
-		Forward pass:				0.1984121799469 seconds.	
-		Backpropagation:			0.23917984962463 seconds.	
-	Training iteration 9	
-		Sampling mini-batch (8 x 3 images):	0.98622488975525 seconds.	
-		Loading input mini-batch to GPU:	0.0053131580352783 seconds.	
-		Forward pass:				0.19800400733948 seconds.	
-		Backpropagation:			0.23981904983521 seconds.	
-	Training iteration 10	
-		Sampling mini-batch (8 x 3 images):	0.98745608329773 seconds.	
-		Loading input mini-batch to GPU:	0.0053269863128662 seconds.	
-		Forward pass:				0.19807195663452 seconds.	
-		Backpropagation:			0.23994088172913 seconds.	
-	Training iteration 11	
-		Sampling mini-batch (8 x 3 images):	1.0764479637146 seconds.	
-		Loading input mini-batch to GPU:	0.0054280757904053 seconds.	
-		Forward pass:				0.19849586486816 seconds.	
-		Backpropagation:			0.23984718322754 seconds.	
-	Training iteration 12	
-		Sampling mini-batch (8 x 3 images):	0.94687485694885 seconds.	
-		Loading input mini-batch to GPU:	0.0054819583892822 seconds.	
-		Forward pass:				0.19801878929138 seconds.	
-		Backpropagation:			0.23992514610291 seconds.	
-	Training iteration 13	
-		Sampling mini-batch (8 x 3 images):	0.99118208885193 seconds.	
-		Loading input mini-batch to GPU:	0.0050880908966064 seconds.	
-		Forward pass:				0.19885206222534 seconds.	
-		Backpropagation:			0.24000382423401 seconds.	
-	Training iteration 14	
-		Sampling mini-batch (8 x 3 images):	1.0234549045563 seconds.	
-		Loading input mini-batch to GPU:	0.0054140090942383 seconds.	
-		Forward pass:				0.19816088676453 seconds.	
-		Backpropagation:			0.24122381210327 seconds.	
-	Training iteration 15	
-		Sampling mini-batch (8 x 3 images):	1.1294300556183 seconds.	
-		Loading input mini-batch to GPU:	0.0068509578704834 seconds.	
-		Forward pass:				0.19800615310669 seconds.	
-		Backpropagation:			0.23960185050964 seconds.	
-	Training iteration 16	
-		Sampling mini-batch (8 x 3 images):	1.2257430553436 seconds.	
-		Loading input mini-batch to GPU:	0.0080149173736572 seconds.	
-		Forward pass:				0.19819307327271 seconds.	
-		Backpropagation:			0.24042081832886 seconds.	
-	Training iteration 17	
-		Sampling mini-batch (8 x 3 images):	0.88962411880493 seconds.	
-		Loading input mini-batch to GPU:	0.0054090023040771 seconds.	
-		Forward pass:				0.19799709320068 seconds.	
-		Backpropagation:			0.23986101150513 seconds.	
-	Training iteration 18	
-		Sampling mini-batch (8 x 3 images):	0.99461388587952 seconds.	
-		Loading input mini-batch to GPU:	0.0063760280609131 seconds.	
-		Forward pass:				0.19821286201477 seconds.	
-		Backpropagation:			0.24240493774414 seconds.	
-	Training iteration 19	
-		Sampling mini-batch (8 x 3 images):	1.0023329257965 seconds.	
-		Loading input mini-batch to GPU:	0.0050079822540283 seconds.	
-		Forward pass:				0.19889903068542 seconds.	
-		Backpropagation:			0.24002909660339 seconds.	
-	Training iteration 20	
-		Sampling mini-batch (8 x 3 images):	0.95516800880432 seconds.	
-		Loading input mini-batch to GPU:	0.0081961154937744 seconds.	
-		Forward pass:				0.19863486289978 seconds.	
-		Backpropagation:			0.24039793014526 seconds.	
-	Training iteration 21	
-		Sampling mini-batch (8 x 3 images):	0.99515795707703 seconds.	
-		Loading input mini-batch to GPU:	0.005169153213501 seconds.	
-		Forward pass:				0.19835495948792 seconds.	
-		Backpropagation:			0.23961091041565 seconds.	
-	Training iteration 22	
-		Sampling mini-batch (8 x 3 images):	1.1763281822205 seconds.	
-		Loading input mini-batch to GPU:	0.0070259571075439 seconds.	
-		Forward pass:				0.19859910011292 seconds.	
-		Backpropagation:			0.24124002456665 seconds.	
-	Training iteration 23	
-		Sampling mini-batch (8 x 3 images):	1.2094218730927 seconds.	
-		Loading input mini-batch to GPU:	0.0069379806518555 seconds.	
-		Forward pass:				0.19947099685669 seconds.	
-		Backpropagation:			0.2402880191803 seconds.	
-	Training iteration 24	
-		Sampling mini-batch (8 x 3 images):	0.93158602714539 seconds.	
-		Loading input mini-batch to GPU:	0.0050740242004395 seconds.	
-		Forward pass:				0.19839882850647 seconds.	
-		Backpropagation:			0.2398841381073 seconds.	
-	Training iteration 25	
-		Sampling mini-batch (8 x 3 images):	0.93515610694885 seconds.	
-		Loading input mini-batch to GPU:	0.0052120685577393 seconds.	
-		Forward pass:				0.19836020469666 seconds.	
-		Backpropagation:			0.2398669719696 seconds.	
-
-	Simple runtime statistics (wall-clock elapsed time):	
-	Loading input to GPU (average runtime):		0.0062805938720703 seconds.	
-	Training forward pass (average runtime):	0.20750591278076 seconds.	
-	Training backward pass (average runtime):	0.25752116203308 seconds.	
-	Total runtime for 25 training iterations:	74.470209121704 seconds.	
-	Average runtime per training iteration:		2.9788086795807 seconds.	
-	Testing forward pass (average runtime):		0.019420485496521 seconds.
+	Loading input to GPU (average runtime):		0.18061017036438 seconds.	
+	Training forward pass (average runtime):	0.22666820526123 seconds.	
+	Training backward pass (average runtime):	0.26863368988037 seconds.	
+	Total runtime for 25 training iterations:	21.190505981445 seconds.	
+	Average runtime per training iteration:		0.84762207984924 seconds.	
+	Testing forward pass (average runtime):		0.019637157917023 seconds.		
 	```
